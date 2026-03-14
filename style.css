@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 20px;
+  color: #333;
+}
+
+nav {
+  background-color: #004080;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #004080;
+}
+
+.profile-photo {
+  width: 200px;
+  border: 3px solid #004080;
+  border-radius: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table td {
+  border: 1px solid #004080;
+  padding: 8px;
+}
+
+table a {
+  color: #004080;
+  text-decoration: none;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+form {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #004080;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #003366;
+}
