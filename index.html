@@ -2,46 +2,133 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>155626 - Ahmad Mohammad Marie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmad Mohammad Marie — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a> | 
-    <a href="contact.html">Contact Me</a>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-logo">AM<span class="dot">.</span></div>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </div>
   </nav>
 
-  <h1>Ahmad Mohammad Marie</h1>
-  <h2>Major: Computer Information Systems</h2>
-  <h3>Academic Level: Fourth Year</h3>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="circle c1"></div>
+      <div class="circle c2"></div>
+      <div class="circle c3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-eyebrow">👋 Hello, I'm</p>
+        <h1 class="hero-name">Ahmad<br><span class="accent">Mohammad</span><br>Marie</h1>
+        <div class="hero-meta">
+          <span class="badge">Computer Information Systems</span>
+          <span class="badge">Fourth Year</span>
+        </div>
+        <p class="hero-bio">Aspiring full stack developer passionate about building scalable, secure, and impactful web applications.</p>
+        <div class="hero-actions">
+          <a href="contact.html" class="btn-primary">Get in Touch</a>
+          <a href="mailto:ammarie21@cit.just.edu.jo" class="btn-secondary">✉ Email Me</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap">
+        <div class="photo-ring"></div>
+        <img src="photo.jpg" alt="Ahmad Mohammad Marie" class="hero-photo">
+        <div class="photo-tag">Full Stack Dev</div>
+      </div>
+    </div>
+    <div class="scroll-hint">↓ Scroll</div>
+  </section>
 
-  <img src="https://ammarie21.github.io/photo.jpg" alt="Professional Photo" class="profile-photo">
+  <!-- Skills Section -->
+  <section class="section skills-section">
+    <div class="section-label">What I Bring</div>
+    <h2 class="section-title">Soft Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card" style="--delay:0s">
+        <div class="skill-icon">🤝</div>
+        <div class="skill-name">Teamwork</div>
+      </div>
+      <div class="skill-card" style="--delay:.07s">
+        <div class="skill-icon">🧠</div>
+        <div class="skill-name">Analytical Thinking</div>
+      </div>
+      <div class="skill-card" style="--delay:.14s">
+        <div class="skill-icon">🔧</div>
+        <div class="skill-name">Problem-Solving</div>
+      </div>
+      <div class="skill-card" style="--delay:.21s">
+        <div class="skill-icon">💬</div>
+        <div class="skill-name">Communication</div>
+      </div>
+      <div class="skill-card" style="--delay:.28s">
+        <div class="skill-icon">🌱</div>
+        <div class="skill-name">Adaptability</div>
+      </div>
+    </div>
+  </section>
 
-  <h3>Key Soft Skills</h3>
-  <ul>
-    <li>Teamwork</li>
-    <li>Analytical Thinking</li>
-    <li>Problem-Solving</li>
-    <li>Communication</li>
-    <li>Adaptability</li>
-  </ul>
+  <!-- Tools Section -->
+  <section class="section tools-section">
+    <div class="section-label">Tech Stack</div>
+    <h2 class="section-title">Favorite Tools & Languages</h2>
+    <div class="tools-grid">
+      <a href="https://www.python.org" target="_blank" class="tool-card" style="--delay:0s">
+        <div class="tool-logo">🐍</div>
+        <div class="tool-info">
+          <div class="tool-name">Python</div>
+          <div class="tool-desc">General-purpose programming</div>
+        </div>
+        <span class="tool-arrow">→</span>
+      </a>
+      <a href="https://flutter.dev" target="_blank" class="tool-card" style="--delay:.08s">
+        <div class="tool-logo">💙</div>
+        <div class="tool-info">
+          <div class="tool-name">Flutter</div>
+          <div class="tool-desc">Cross-platform development</div>
+        </div>
+        <span class="tool-arrow">→</span>
+      </a>
+      <a href="https://www.oracle.com/database/technologies/appdev/plsql.html" target="_blank" class="tool-card" style="--delay:.16s">
+        <div class="tool-logo">🗄️</div>
+        <div class="tool-info">
+          <div class="tool-name">Oracle PL/SQL</div>
+          <div class="tool-desc">Database programming</div>
+        </div>
+        <span class="tool-arrow">→</span>
+      </a>
+    </div>
+  </section>
 
-  <h3>Favorite Tools & Languages</h3>
-  <table>
-    <tr><td><a href="https://www.python.org" target="_blank">Python</a></td></tr>
-    <tr><td><a href="https://flutter.dev" target="_blank">Flutter</a></td></tr>
-    <tr><td><a href="https://www.oracle.com/database/technologies/appdev/plsql.html" target="_blank">Oracle PL/SQL</a></td></tr>
-  </table>
+  <!-- Vision Section -->
+  <section class="section vision-section">
+    <div class="vision-inner">
+      <div class="section-label">Looking Ahead</div>
+      <h2 class="section-title">Where I See Myself in 4 Years</h2>
+      <blockquote class="vision-quote">
+        "I see myself working as a full stack developer, building scalable and secure web applications — leading development teams, contributing to innovative projects, and exploring cloud computing and AI integration to make a meaningful impact."
+      </blockquote>
+      <div class="vision-goals">
+        <div class="goal">🚀 Lead Development Teams</div>
+        <div class="goal">☁️ Cloud Computing</div>
+        <div class="goal">🤖 AI Integration</div>
+        <div class="goal">🌐 Full Stack Mastery</div>
+      </div>
+    </div>
+  </section>
 
-  <p>Email me: <a href="mailto:ammarie21@cit.just.edu.jo">ammarie21@cit.just.edu.jo</a></p>
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Ahmad Mohammad Marie · <a href="mailto:ammarie21@cit.just.edu.jo">ammarie21@cit.just.edu.jo</a></p>
+  </footer>
 
-  <h3>Where Do I See Myself in 4 Years?</h3>
-  <p>
-    In four years, I see myself working as a full stack developer, building scalable and secure web applications. 
-    I aim to specialize in integrating modern frameworks with robust backend systems, ensuring both performance and compliance. 
-    My goal is to lead development teams, contribute to innovative projects, and continuously improve my technical and leadership skills. 
-    I also plan to explore advanced areas like cloud computing and AI integration to stay ahead in the software industry. 
-    Ultimately, I want to make a meaningful impact by creating solutions that solve real-world problems.
-  </p>
 </body>
 </html>
